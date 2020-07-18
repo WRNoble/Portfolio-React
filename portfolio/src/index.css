@@ -13,14 +13,15 @@ code {
 }
 
 .w-card {
-  margin: 20px;
+  margin: 0px 5px 40px 5px;
 }
 
 .w-card-image {
   border-radius: 10px;
   width: 300px;
   height: 350px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+  box-shadow: 0px 0px 5px 5px #ccc;
+  margin-bottom: 0px;
 }
 
 .w-card-title {
@@ -31,11 +32,16 @@ code {
 .w-card-info {
   margin-top: 10px;
   min-height: 100px;
+  margin-bottom: 20px;
 }
 
 .w-card-text {
   font-size: 16px;
   margin: 0px;
+}
+
+.w-card-linkTwo {
+  margin-bottom: 20px;
 }
 
 .success-msg {
@@ -48,8 +54,15 @@ code {
   padding: 15px;
 }
 
-.footer {
+.nav {
   color: white;
   background-color: black;
+}
+
+.footer {
+  margin-top: 100px;
+  color: white;
+  background-color: black;
+  z-index: -1;
   position: sticky;
 }

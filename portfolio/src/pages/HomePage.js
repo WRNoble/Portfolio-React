@@ -1,5 +1,6 @@
 import React from "react";
 import Poster from "../components/Poster";
+import Footer from "../components/Footer";
 
 function HomePage(props) {
   return (
@@ -10,6 +11,7 @@ function HomePage(props) {
         subtext={props.subtext}
         subtext1={props.subtext1}
       />
+      <Footer />
     </div>
   );
 }

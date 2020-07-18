@@ -7,7 +7,6 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
-import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -45,7 +44,10 @@ class App extends Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar
+            className="border-bottom navbar navbar-dark bg-dark"
+            expand="lg"
+          >
             <Navbar.Brand>William Ray Noble, Jr.</Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -97,7 +99,6 @@ class App extends Component {
             exact
             render={() => <ContactPage title={this.state.contact.title} />}
           />
-          <Footer />
         </Container>
       </Router>
     );
