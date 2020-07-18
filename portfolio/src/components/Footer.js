@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="mt-5 footer fixed-bottom">
       <Container fluid={true}>
-        <Row className="justify-content-between p-5">
+        <Row className="justify-content-between p-3">
           <Col className="p-0" md={3} sm={12}>
             William Ray Noble, Jr.
           </Col>
