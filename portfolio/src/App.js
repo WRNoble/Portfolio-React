@@ -24,8 +24,9 @@ class App extends Component {
       home: {
         title: "Never, Ever Give Up",
         text: "Persistent Programming",
-        subtext: "Full-Stack Developer: HTML5, CSS3, JavaScript, React",
-        subtext1: "Node, Express, Mongo, Mongoose, Python, and Django",
+        subtext: "Full-Stack Developer: Git, GitHub, HTML5, CSS3, JavaScript,",
+        subtext1:
+          " React, Node, Express, MongoDB, Mongoose, Python, SQL, and Django",
       },
       about: {
         title: "My Story",
