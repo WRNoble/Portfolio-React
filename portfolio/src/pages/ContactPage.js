@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Poster from "../components/Poster";
 import { Form, Button, Container } from "react-bootstrap";
 import axios from "axios";
+import Linkedin from "../images/Linkedin.png";
+import GitHub from "../images/GitHub.png";
+import Resume from "../images/Resume.png";
+import TeamTreehouse from "../images/teamtreehouse.png";
 
 class ContactPage extends Component {
   constructor(props) {
@@ -122,7 +126,7 @@ class ContactPage extends Component {
               target="blank"
               className="m-5"
             >
-              Resume
+              <img src={Resume} alt="Resume" height="50" width="50" />
             </a>
             <br />
             <a
@@ -130,11 +134,24 @@ class ContactPage extends Component {
               target="blank"
               className="m-5"
             >
-              Linkedin
+              <img src={Linkedin} alt="Linkedin" height="50" width="50" />
             </a>
             <br />
             <a href="https://github.com/WRNoble" target="blank" className="m-5">
-              GitHub
+              <img src={GitHub} alt="GitHub" height="50" width="50" />
+            </a>
+            <br />
+            <a
+              href="https://teamtreehouse.com/williamnoble"
+              target="blank"
+              className="m-5"
+            >
+              <img
+                src={TeamTreehouse}
+                alt="team treehouse"
+                height="65"
+                width="70"
+              />
             </a>
           </div>
         </Container>
