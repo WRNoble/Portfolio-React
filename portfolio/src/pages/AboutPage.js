@@ -6,7 +6,12 @@ function AboutPage(props) {
   return (
     <div>
       <Poster title={props.title} text={props.text} />
-      <Content>Hello</Content>
+      <Content className="pull-left">
+        Hello jfkldsjfkldsjfkld sjfkldsjfkldsfjdslkjfdsklfjds
+        kljfkldsjfdskljfdslkjfkldsjfkldsjfk ldsjkldsjfkldsjfkldsj
+        fkdlsfjdklsjfkldsjfkldsjfds klfjsdklfjdsklfjdsklfjsdkl
+        jfsdlkfjdslkfjdskljfdskljdskljdsklfjdsklfjdls
+      </Content>
     </div>
   );
 }
