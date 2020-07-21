@@ -96,7 +96,7 @@ class ContactPage extends Component {
             />
 
             <Button
-              className="d-inline-block button"
+              className="d-inline-block button mt-3"
               variant="secondary"
               type="submit"
               disabled={this.state.disabled}
