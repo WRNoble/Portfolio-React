@@ -49,7 +49,11 @@ class App extends Component {
             className="border-bottom navbar navbar-dark bg-dark"
             expand="lg"
           >
-            <Navbar.Brand>William Ray Noble, Jr.</Navbar.Brand>
+            <Navbar.Brand>
+              <a href={"/"} className="text-white text-decoration-none">
+                William Ray Noble, Jr.
+              </a>
+            </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">

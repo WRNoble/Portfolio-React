@@ -11,7 +11,7 @@ function Content(props) {
             src={PicRay}
             height="400"
             width="350"
-            className="ml-5 float-left mr-5"
+            className="ml-5 float-left mr-5 rounded-lg"
           />
           <p>Hello and thanks for stopping by my webpage!</p>
         </div>
