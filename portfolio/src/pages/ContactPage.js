@@ -115,12 +115,13 @@ class ContactPage extends Component {
                 )}
                 {this.state.emailSent === false && (
                   <p className="d-inline err-msg">
-                    Sorry, an error occurred and you message could not be
+                    Sorry, an error occurred and your message could not be
                     processed.
                   </p>
                 )}
               </Form.Group>
             </Form>
+
             <a
               href="https://docs.google.com/document/d/1OKDppzsM08KnOdhvugpLKLgzUT9xRsVaAxUZ7B0QhLg/edit"
               target="blank"
@@ -129,6 +130,7 @@ class ContactPage extends Component {
               <img src={Resume} alt="Resume" height="50" width="50" />
             </a>
             <br />
+
             <a
               href="https://www.linkedin.com/in/william-ray-noble-jr-software-developer/"
               target="blank"
@@ -136,11 +138,14 @@ class ContactPage extends Component {
             >
               <img src={Linkedin} alt="Linkedin" height="50" width="50" />
             </a>
+
             <br />
+
             <a href="https://github.com/WRNoble" target="blank" className="m-5">
               <img src={GitHub} alt="GitHub" height="50" width="50" />
             </a>
             <br />
+
             <a
               href="https://teamtreehouse.com/williamnoble"
               target="blank"

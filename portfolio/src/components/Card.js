@@ -1,5 +1,6 @@
 import React from "react";
 import CardInfo from "../components/CardInfo";
+import picGame from "../images/PicGame.jpg";
 
 function Card(props) {
   return (
@@ -8,7 +9,7 @@ function Card(props) {
       onClick={(e) => props.click(props.item)}
     >
       <img
-        className="w-card-image"
+        className="w-card-image  mb-3"
         src={props.item.imgSrc}
         alt={props.item.imgSrc}
       />
@@ -18,6 +19,8 @@ function Card(props) {
           text={props.item.text}
           link={props.item.link}
           linkTwo={props.item.linkTwo}
+          problem={props.item.problem}
+          solution={props.item.solution}
         />
       )}
     </div>

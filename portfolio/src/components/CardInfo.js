@@ -2,7 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 function CardInfo(props) {
-  const animation = useSpring({ opacity: 1, from: { opacity: 0 } });
+  const animation = useSpring({ opacity: 4, from: { opacity: 0 } });
 
   return (
     <animated.div className="w-card-info" style={animation}>
@@ -15,6 +15,8 @@ function CardInfo(props) {
       <a href={props.linkTwo} target="blank">
         GitHub Repo
       </a>
+      <p className="w-card-text">{props.problem}</p>
+      <p className="w-card-text">{props.solution}</p>
     </animated.div>
   );
 }
