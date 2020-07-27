@@ -16,27 +16,29 @@ function Content(props) {
           />
           <p>
             <big>
-              Persistence gets the job done, even when the going is tough. It
-              requires strength of character, patience, and humility—constant
-              learning and cooperation with peers. I strive for these qualities
-              in my life, whether parsing Greek or being a good friend.
-              Throughout my diverse work experience in the hospitality and
-              medical industries, I was ever picking up new skills, skills that
-              required critical attention to detail in effort to care for
-              others. As a programmer, I seek to focus on the task at hand,
-              welcoming learning and collaboration with enthusiasm.
+              Persistence. Even when the going is tough, persistence gets the
+              job done. It requires strength of character, patience, humility,
+              eager learning, and adaptable collaboration. I strive for these
+              qualities in my life, whether I’m parsing Greek or caring for a
+              friend. My diverse work experience in the hospitality and medical
+              industries has equipped me to pick up new skills that require
+              critical attention to detail; and as a programmer, I enjoy
+              figuring out a coding puzzle.
             </big>
           </p>
           <p>
             <big>
               I graduated from Shawnee State University in 2012 with a
-              bachelor's degree in history. I started my Master of Divinity at
-              The Southern Baptist Theological Seminary in August of 2015. Both
-              my studies in history and theology have instilled in me the
-              importance of precision, communication, humility, and persistence.
-              I married my beautiful wife in May of 2020 after moving from
-              Louisville, KY to La Plata, MD. I look forward to applying all of
-              these skills to the field of software development.
+              bachelor's degree in history; and in August 2015, I started my
+              Master of Divinity at The Southern Baptist Theological
+              Seminary.  My studies in history and theology have been valuable
+              in a variety of ways, compelling me to be precise, communicate
+              clearly, remain teachable, work hard, and be (again) persistent. I
+              look forward to applying these skills to the field of software
+              development, in addition to learning others. In May 2020, I moved
+              to La Plata, MD, to marry my beautiful wife, though I’m an Ohio
+              native. When my schedule permits, I like to read non-fiction and
+              take cross-country road trips.
             </big>
           </p>
         </div>

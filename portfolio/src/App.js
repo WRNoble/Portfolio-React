@@ -66,10 +66,13 @@ class App extends Component {
                 <Link className="nav-link" to="/projects">
                   Projects
                 </Link>
+                <Link className="nav-link" to="#">
+                  Resume
+                </Link>
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
-                <Link className="nav-link">Resume</Link>
+
                 {/* Address the above issue with resume */}
               </Nav>
             </Navbar.Collapse>
