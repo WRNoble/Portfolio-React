@@ -126,6 +126,7 @@ class ContactPage extends Component {
               href="https://docs.google.com/document/d/1OKDppzsM08KnOdhvugpLKLgzUT9xRsVaAxUZ7B0QhLg/edit"
               target="blank"
               className="m-5"
+              title="Resume"
             >
               <img src={Resume} alt="Resume" height="50" width="50" />
             </a>
@@ -135,13 +136,19 @@ class ContactPage extends Component {
               href="https://www.linkedin.com/in/william-ray-noble-jr-software-developer/"
               target="blank"
               className="m-5"
+              title="Linkedin"
             >
               <img src={Linkedin} alt="Linkedin" height="50" width="50" />
             </a>
 
             <br />
 
-            <a href="https://github.com/WRNoble" target="blank" className="m-5">
+            <a
+              href="https://github.com/WRNoble"
+              target="blank"
+              className="m-5"
+              title="GitHub"
+            >
               <img src={GitHub} alt="GitHub" height="50" width="50" />
             </a>
             <br />
@@ -150,6 +157,7 @@ class ContactPage extends Component {
               href="https://teamtreehouse.com/williamnoble"
               target="blank"
               className="m-5"
+              title="Treehouse"
             >
               <img
                 src={TeamTreehouse}
