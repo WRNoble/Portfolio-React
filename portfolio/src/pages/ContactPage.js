@@ -19,12 +19,21 @@ class ContactPage extends Component {
     };
   }
 
-  handleChange = (e) => {
-    const target = e.target;
-    const value = target.value;
-    const name = target.name;
+  handleName = (e) => {
     this.setState({
-      [name]: value,
+      name: e.target.value,
+    });
+  };
+
+  handleEmail = (e) => {
+    this.setState({
+      email: e.target.value,
+    });
+  };
+
+  handleMessage = (e) => {
+    this.setState({
+      message: e.target.value,
     });
   };
 
@@ -75,7 +84,7 @@ class ContactPage extends Component {
                   name="name"
                   type="text"
                   value={this.state.name}
-                  onChange={this.handleChange}
+                  onChange={this.handleName}
                 />
               </Form.Group>
 
@@ -86,7 +95,7 @@ class ContactPage extends Component {
                   name="email"
                   type="email"
                   value={this.state.email}
-                  onChange={this.handleChange}
+                  onChange={this.handleEmail}
                 />
               </Form.Group>
 
@@ -98,7 +107,7 @@ class ContactPage extends Component {
                   as="textarea"
                   rows="5"
                   value={this.state.message}
-                  onChange={this.handleChange}
+                  onChange={this.handleMessage}
                 />
 
                 <Button
