@@ -12,7 +12,7 @@ function Footer() {
             William Ray Noble, Jr.
           </Col>
           <Col className="p-0 d-flex justify-content end" md={3}>
-            This site was last updated on July 22, 2020.
+            This site was last updated on August 3, 2020.
           </Col>
         </Row>
       </Container>

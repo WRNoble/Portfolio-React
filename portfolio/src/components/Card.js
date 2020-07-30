@@ -1,6 +1,5 @@
 import React from "react";
 import CardInfo from "../components/CardInfo";
-import picGame from "../images/PicGame.jpg";
 
 function Card(props) {
   return (

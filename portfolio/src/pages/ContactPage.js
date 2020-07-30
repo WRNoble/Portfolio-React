@@ -43,14 +43,23 @@ class ContactPage extends Component {
       disabled: true,
       emailSent: true,
     });
+    let data = {
+      name: this.state.name,
+      email: this.state.email,
+      message: this.state.message,
+    };
+
     axios
-      .post("http://localhost:3050/api/email", this.state)
+      .post("http://localhost:3001/api/email", data)
       .then((res) => {
         if (res.data.success) {
-          this.setState({
-            disabled: false,
-            emailSent: true,
-          });
+          this.setState(
+            {
+              disabled: false,
+              emailSent: true,
+            },
+            this.resetForm()
+          );
         } else {
           this.setState({
             disabled: false,
@@ -59,12 +68,27 @@ class ContactPage extends Component {
         }
       })
       .catch((err) => {
-        console.log(err);
         this.setState({
           disabled: false,
           emailSent: false,
         });
       });
+  };
+
+  resetForm = () => {
+    this.setState({
+      name: "",
+      email: "",
+      message: "",
+      disabled: false,
+      emailSent: null,
+    });
+
+    setTimeout(() => {
+      this.setState({
+        emailSent: false,
+      });
+    }, 5000);
   };
 
   render() {
@@ -85,6 +109,7 @@ class ContactPage extends Component {
                   type="text"
                   value={this.state.name}
                   onChange={this.handleName}
+                  required
                 />
               </Form.Group>
 
@@ -96,6 +121,7 @@ class ContactPage extends Component {
                   type="email"
                   value={this.state.email}
                   onChange={this.handleEmail}
+                  required
                 />
               </Form.Group>
 
@@ -108,8 +134,11 @@ class ContactPage extends Component {
                   rows="5"
                   value={this.state.message}
                   onChange={this.handleMessage}
+                  required
                 />
-
+                {/* <div className={this.state.sent ? "msg msgAppear" : "msg"}>
+                  Message has been sent!
+                </div> */}
                 <Button
                   className="d-inline-block button mt-3"
                   variant="secondary"
@@ -119,7 +148,7 @@ class ContactPage extends Component {
                   Send
                 </Button>
 
-                {this.state.emailSent === true && (
+                {/* {this.state.emailSent === true && (
                   <p className="d-inline success-msg">Message Sent!</p>
                 )}
                 {this.state.emailSent === false && (
@@ -127,7 +156,7 @@ class ContactPage extends Component {
                     Sorry, an error occurred and your message could not be
                     processed.
                   </p>
-                )}
+                )} */}
               </Form.Group>
             </Form>
 

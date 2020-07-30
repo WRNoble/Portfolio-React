@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import PicRay from "../images/PicRay.jpeg";
+import { Container } from "react-bootstrap";
+import PicRay from "../images/PicRay.jpg";
 
 function Content(props) {
   return (
     <Container fluid={false}>
-      <div className="row">
-        <div className="col">
+      <div>
+        <div>
           <img
             src={PicRay}
             height="440"
