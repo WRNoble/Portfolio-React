@@ -1,12 +1,12 @@
 import React from "react";
 import Poster from "../components/Poster";
-import Footer from "../components/Footer";
 import JavaScript from "../images/JavaScript.png";
 import ReactPic from "../images/React.png";
 import Node from "../images/Node.png";
 import GitHub from "../images/GitHub.png";
 import SQL from "../images/Sql.png";
 import Python from "../images/Python.png";
+import Git from "../images/Git.png";
 
 function HomePage(props) {
   return (
@@ -20,8 +20,15 @@ function HomePage(props) {
       <div className="ml-5 mt-5 p-3 pl-5">
         <img
           className="ml-5 mr-5"
-          src={GitHub}
+          src={Git}
           alt="GitHub"
+          height="70"
+          width="70"
+        />
+        <img
+          className="ml-5 mr-5"
+          src={GitHub}
+          alt="Git"
           height="70"
           width="70"
         />
@@ -55,7 +62,6 @@ function HomePage(props) {
           width="70"
         />
       </div>
-      <Footer />
     </div>
   );
 }

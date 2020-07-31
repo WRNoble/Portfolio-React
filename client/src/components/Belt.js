@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Card from "../components/Card";
 import { Container, Row } from "react-bootstrap";
 import PicRome from "../images/PicRome.png";
-import PicOne from "../images/PicOne.jpg";
-import PicGame from "../images/PicGame.jpg";
 import GIFSearch from "../images/GIFSearch.png";
+import RomeCon from "../images/RomeCon.png";
+import Scoreboard from "../images/Scoreboard.png";
 
 class Belt extends Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class Belt extends Component {
           id: 0,
           title: "Classical Rome Seminar",
           text: "HTML and CSS Bootstrap",
-          imgSrc: PicOne,
+          imgSrc: RomeCon,
           link: "https://wrnoble.github.io/CSS-Bootstrap-Roman-Conference/",
           linkTwo: "https://github.com/WRNoble/CSS-Bootstrap-Roman-Conference",
           selected: false,
@@ -31,7 +31,7 @@ class Belt extends Component {
         },
         {
           id: 2,
-          title: "Apartment Mockup",
+          title: "GIF Search App",
           text: "HTML and CSS",
           imgSrc: GIFSearch,
           link: "https://gracious-austin-a5a623.netlify.app/",
@@ -43,9 +43,9 @@ class Belt extends Component {
           id: 3,
           title: "Scoreboard",
           text: "React",
-          imgSrc: PicGame,
-          link: "#",
-          linkTwo: "#",
+          imgSrc: Scoreboard,
+          link: "https://cranky-hopper-88bc6a.netlify.app/",
+          linkTwo: "https://github.com/WRNoble/scoreboard",
           selected: false,
         },
       ],
