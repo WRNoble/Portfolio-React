@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Card from "../components/Card";
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import PicRome from "../images/PicRome.png";
 import PicOne from "../images/PicOne.jpg";
-import PicApartment from "../images/PicApartment.jpg";
 import PicGame from "../images/PicGame.jpg";
+import GIFSearch from "../images/GIFSearch.png";
 
 class Belt extends Component {
   constructor(props) {
@@ -34,9 +33,10 @@ class Belt extends Component {
           id: 2,
           title: "Apartment Mockup",
           text: "HTML and CSS",
-          imgSrc: PicApartment,
-          link: "#",
-          linkTwo: "#",
+          imgSrc: GIFSearch,
+          link: "https://gracious-austin-a5a623.netlify.app/",
+          linkTwo:
+            "https://github.com/WRNoble/Gif-Search-React/tree/master/gif-search",
           selected: false,
         },
         {
