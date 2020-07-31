@@ -14,15 +14,19 @@ class ContactPage extends Component {
       name: "",
       email: "",
       message: "",
-      disabled: false,
       emailSent: null,
     };
+    this.handleChange = this.handleName.bind(this);
+    this.handleChange = this.handleEmail.bind(this);
+    this.handleChange = this.handleMessage.bind(this);
+    this.handleChange = this.handleSubmit.bind(this);
   }
 
   handleName = (e) => {
     this.setState({
       name: e.target.value,
     });
+    console.log(this.state);
   };
 
   handleEmail = (e) => {
@@ -39,10 +43,7 @@ class ContactPage extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    this.setState({
-      disabled: true,
-      emailSent: true,
-    });
+
     let data = {
       name: this.state.name,
       email: this.state.email,
@@ -52,26 +53,15 @@ class ContactPage extends Component {
     axios
       .post("http://localhost:3001/api/email", data)
       .then((res) => {
-        if (res.data.success) {
-          this.setState(
-            {
-              disabled: false,
-              emailSent: true,
-            },
-            this.resetForm()
-          );
-        } else {
-          this.setState({
-            disabled: false,
-            emailSent: false,
-          });
-        }
+        this.setState(
+          {
+            sentEmail: true,
+          },
+          this.resetForm()
+        );
       })
-      .catch((err) => {
-        this.setState({
-          disabled: false,
-          emailSent: false,
-        });
+      .catch(() => {
+        console.log("message not sent");
       });
   };
 
@@ -80,18 +70,18 @@ class ContactPage extends Component {
       name: "",
       email: "",
       message: "",
-      disabled: false,
       emailSent: null,
     });
 
-    setTimeout(() => {
-      this.setState({
-        emailSent: false,
-      });
-    }, 5000);
+    // setTimeout(() => {
+    //   this.setState({
+    //     emailSent: false,
+    //   });
+    // }, 5000);
   };
 
   render() {
+    console.log(this.state);
     return (
       <div>
         <Poster title={this.props.title} />
@@ -136,16 +126,16 @@ class ContactPage extends Component {
                   onChange={this.handleMessage}
                   required
                 />
-                {/* <div className={this.state.sent ? "msg msgAppear" : "msg"}>
+                {/* <div className={this.state.emailSent ? "msg msgAppear" : "msg"}>
                   Message has been sent!
                 </div> */}
                 <Button
                   className="d-inline-block button mt-3"
                   variant="secondary"
                   type="submit"
-                  disabled={this.state.disabled}
+                  onClick={this.handleSubmit}
                 >
-                  Send
+                  Submit
                 </Button>
 
                 {/* {this.state.emailSent === true && (
