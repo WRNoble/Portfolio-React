@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Card from "../components/Card";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
-import PicRome from "../images/PicRome.jpg";
+import PicRome from "../images/PicRome.png";
 import PicOne from "../images/PicOne.jpg";
 import PicApartment from "../images/PicApartment.jpg";
 import PicGame from "../images/PicGame.jpg";
@@ -23,11 +23,11 @@ class Belt extends Component {
         },
         {
           id: 1,
-          title: "Roman Trivia",
+          title: "Ancient Rome Trivia Game",
           text: "HTML, CSS, and JavaScript",
           imgSrc: PicRome,
-          link: "#",
-          linkTwo: "#",
+          link: "https://wrnoble.github.io/Ancient-Rome-Trivia/",
+          linkTwo: "https://github.com/WRNoble/Ancient-Rome-Trivia",
           selected: false,
         },
         {
