@@ -44,7 +44,7 @@ class Belt extends Component {
           title: "Scoreboard",
           text: "React",
           imgSrc: Scoreboard,
-          link: "https://cranky-hopper-88bc6a.netlify.app/",
+          link: "https://dreamy-torvalds-0b4bc1.netlify.app/",
           linkTwo: "https://github.com/WRNoble/scoreboard",
           selected: false,
         },
