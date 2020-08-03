@@ -15,8 +15,6 @@ function CardInfo(props) {
       <a href={props.linkTwo} target="blank">
         GitHub Repo
       </a>
-      <p className="w-card-text">{props.problem}</p>
-      <p className="w-card-text">{props.solution}</p>
     </animated.div>
   );
 }

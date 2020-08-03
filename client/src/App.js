@@ -65,9 +65,9 @@ class App extends Component {
                 <Link className="nav-link" to="/projects">
                   Projects
                 </Link>
-                <Link className="nav-link" to="#">
+                <a className="nav-link" href="#" target="blank">
                   Resume
-                </Link>
+                </a>
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>

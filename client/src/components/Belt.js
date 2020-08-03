@@ -34,9 +34,8 @@ class Belt extends Component {
           title: "GIF Search App",
           text: "HTML and CSS",
           imgSrc: GIFSearch,
-          link: "https://gracious-austin-a5a623.netlify.app/",
-          linkTwo:
-            "https://github.com/WRNoble/Gif-Search-React/tree/master/gif-search",
+          link: "https://wrnoble.github.io/gif-search-deploy/",
+          linkTwo: "https://github.com/WRNoble/gif-search-deploy",
           selected: false,
         },
         {
