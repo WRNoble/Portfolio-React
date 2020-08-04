@@ -32,7 +32,7 @@ class Belt extends Component {
         {
           id: 2,
           title: "GIF Search App",
-          text: "HTML and CSS",
+          text: "React",
           imgSrc: GIFSearch,
           link: "https://wrnoble.github.io/gif-search-deploy/",
           linkTwo: "https://github.com/WRNoble/gif-search-deploy",
