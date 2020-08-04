@@ -11,7 +11,7 @@ function Content(props) {
             src={PicRay}
             height="440"
             width="350"
-            className="ml-5 float-left mr-5 rounded-lg"
+            className="ml-3 float-left mr-5 rounded-lg"
             alt="William Ray Noble Jr."
           />
           <br />
