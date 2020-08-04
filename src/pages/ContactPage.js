@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 import Linkedin from "../images/Linkedin.png";
 import GitHub from "../images/GitHub.png";
 import Resume from "../images/Resume.png";
-import TeamTreehouse from "../images/teamtreehouse.png";
+import Treehouse from "../images/Treehouse.png";
 
 function ContactPage(props) {
   return (
@@ -52,10 +52,10 @@ function ContactPage(props) {
             title="Treehouse"
           >
             <img
-              src={TeamTreehouse}
+              src={Treehouse}
               alt="team treehouse"
-              height="115"
-              width="140"
+              height="100"
+              width="100"
             />
           </a>
         </div>
