@@ -65,14 +65,16 @@ class App extends Component {
                 <Link className="nav-link" to="/projects">
                   Projects
                 </Link>
-                <a className="nav-link" href="#" target="blank">
+                <a
+                  className="nav-link"
+                  href="https://drive.google.com/file/d/1yFBJyiMx_H7fva7pX4mR42QhkImkp7TM/view?usp=sharing"
+                  target="blank"
+                >
                   Resume
                 </a>
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
-
-                {/* Address the above issue with resume */}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
