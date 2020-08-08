@@ -17,6 +17,7 @@ function ContactPage(props) {
           <a
             href="https://docs.google.com/document/d/1OKDppzsM08KnOdhvugpLKLgzUT9xRsVaAxUZ7B0QhLg/edit"
             target="_blank"
+            rel="noopener noreferrer"
             className="m-5"
             title="Resume"
           >
@@ -27,6 +28,7 @@ function ContactPage(props) {
           <a
             href="https://www.linkedin.com/in/william-ray-noble-jr-software-developer/"
             target="_blank"
+            rel="noopener noreferrer"
             className="m-5"
             title="Linkedin"
           >
@@ -38,6 +40,7 @@ function ContactPage(props) {
           <a
             href="https://github.com/WRNoble"
             target="_blank"
+            rel="noopener noreferrer"
             className="m-5"
             title="GitHub"
           >
@@ -48,6 +51,7 @@ function ContactPage(props) {
           <a
             href="https://teamtreehouse.com/williamnoble"
             target="_blank"
+            rel="noopener noreferrer"
             className="m-5"
             title="Treehouse"
           >
