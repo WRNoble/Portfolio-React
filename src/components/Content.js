@@ -22,7 +22,7 @@ function Content() {
             qualities in my life, whether I’m parsing Greek or caring for a
             friend. My diverse work experience in the hospitality and medical
             industries has equipped me to pick up new skills that require
-            critical attention to detail; and as a programmer, this helps me
+            critical attention to detail; and as a developer, this helps me
             enjoy figuring out a coding puzzle.
           </p>
           <p>

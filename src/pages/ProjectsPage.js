@@ -1,15 +1,14 @@
-import React from 'react';
-import Poster from '../components/Poster';
-import Belt from '../components/Belt';
+import React from "react";
+import Poster from "../components/Poster";
+import Belt from "../components/Belt";
 
-function ProjectsPage(props){
-
-    return(
-        <div>
-            <Poster title={props.title} />
-            <Belt />
-        </div>
-    )
+function ProjectsPage(props) {
+  return (
+    <div>
+      <Poster title={props.title} />
+      <Belt />
+    </div>
+  );
 }
 
-export default ProjectsPage
+export default ProjectsPage;
