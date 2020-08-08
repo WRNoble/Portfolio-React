@@ -8,11 +8,11 @@ function CardInfo(props) {
     <animated.div className="w-card-info" style={animation}>
       <p className="w-card-title">{props.title}</p>
       <p className="w-card-text">{props.text}</p>
-      <a href={props.link} target="blank">
+      <a href={props.link} target="_blank">
         Check It Out!
       </a>
       <br />
-      <a href={props.linkTwo} target="blank">
+      <a href={props.linkTwo} target="_blank">
         GitHub Repo
       </a>
     </animated.div>

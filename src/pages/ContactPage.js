@@ -16,7 +16,7 @@ function ContactPage(props) {
           <Email />
           <a
             href="https://docs.google.com/document/d/1OKDppzsM08KnOdhvugpLKLgzUT9xRsVaAxUZ7B0QhLg/edit"
-            target="blank"
+            target="_blank"
             className="m-5"
             title="Resume"
           >
@@ -26,7 +26,7 @@ function ContactPage(props) {
 
           <a
             href="https://www.linkedin.com/in/william-ray-noble-jr-software-developer/"
-            target="blank"
+            target="_blank"
             className="m-5"
             title="Linkedin"
           >
@@ -37,7 +37,7 @@ function ContactPage(props) {
 
           <a
             href="https://github.com/WRNoble"
-            target="blank"
+            target="_blank"
             className="m-5"
             title="GitHub"
           >
@@ -47,7 +47,7 @@ function ContactPage(props) {
 
           <a
             href="https://teamtreehouse.com/williamnoble"
-            target="blank"
+            target="_blank"
             className="m-5"
             title="Treehouse"
           >

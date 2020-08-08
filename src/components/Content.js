@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import PicRay from "../images/PicRay.jpg";
 
-function Content(props) {
+function Content() {
   return (
     <Container fluid={false}>
       <div>
@@ -11,7 +11,7 @@ function Content(props) {
             src={PicRay}
             height="440"
             width="350"
-            className="ml-3 float-left mr-5 rounded-lg"
+            className="float-left mr-5 rounded-lg picture"
             alt="William Ray Noble Jr."
           />
           <br />
