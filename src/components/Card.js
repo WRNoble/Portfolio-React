@@ -18,8 +18,6 @@ function Card(props) {
           text={props.item.text}
           link={props.item.link}
           linkTwo={props.item.linkTwo}
-          problem={props.item.problem}
-          solution={props.item.solution}
         />
       )}
     </div>

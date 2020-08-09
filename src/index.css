@@ -16,6 +16,10 @@ code {
   cursor: pointer;
 }
 
+.instructions {
+  color: lightslategrey;
+}
+
 .w-card {
   margin: 0px 5px 40px 5px;
   cursor: pointer;
