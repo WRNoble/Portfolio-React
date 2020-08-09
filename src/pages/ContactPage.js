@@ -15,7 +15,7 @@ function ContactPage(props) {
         <div className="row">
           <Email />
           <a
-            href="https://docs.google.com/document/d/1OKDppzsM08KnOdhvugpLKLgzUT9xRsVaAxUZ7B0QhLg/edit"
+            href="https://drive.google.com/file/d/1nk5p75JiqHTy-B4qzRGBPzORv8uAxcQI/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="m-5"
