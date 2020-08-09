@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PicGmail from "../images/PicGmail.png";
+import Gmail from "../images/Email.png";
 
 class Email extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Email extends Component {
   render() {
     return (
       <img
-        src={PicGmail}
+        src={Gmail}
         alt="Gmail"
         title="Email"
         height="115"
