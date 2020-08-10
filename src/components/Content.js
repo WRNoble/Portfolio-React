@@ -9,8 +9,8 @@ function Content() {
         <div>
           <img
             src={PicRay}
-            height="460"
-            width="360"
+            height="450"
+            width="345"
             className="float-left mr-5 rounded-lg picture"
             alt="William Ray Noble Jr."
           />

@@ -67,10 +67,3 @@ code {
   color: white;
   background-color: black;
 }
-
-@media screen and (min-width: 800px) {
-  .picture {
-    left: 0;
-    margin-left: 20px;
-  }
-}
