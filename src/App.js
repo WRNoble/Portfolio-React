@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import BlogPage from "./pages/BlogPage";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ class App extends Component {
         { title: "About", path: "/about" },
         { title: "Projects", path: "/projects" },
         { title: "Contact", path: "/contact" },
+        { title: "Blog", path: "/blog" },
       ],
       home: {
         title: "Never, Ever Give Up",
@@ -36,6 +38,9 @@ class App extends Component {
       },
       contact: {
         title: "My Contact",
+      },
+      blog: {
+        title: "My Blog",
       },
     };
   }
@@ -56,9 +61,9 @@ class App extends Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">
+                {/* <Link className="nav-link" to="/">
                   Home
-                </Link>
+                </Link> */}
                 <Link className="nav-link" to="/about">
                   My Story
                 </Link>
@@ -74,6 +79,9 @@ class App extends Component {
                 </a>
                 <Link className="nav-link" to="/contact">
                   Contact
+                </Link>
+                <Link className="nav-link" to="/blog">
+                  Blog
                 </Link>
               </Nav>
             </Navbar.Collapse>
@@ -109,6 +117,11 @@ class App extends Component {
             path="/contact"
             exact
             render={() => <ContactPage title={this.state.contact.title} />}
+          />
+          <Route
+            path="/blog"
+            exact
+            render={() => <BlogPage title={this.state.blog.title} />}
           />
         </Container>
       </Router>
