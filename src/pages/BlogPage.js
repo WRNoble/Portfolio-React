@@ -14,7 +14,7 @@ function BlogPage(props) {
       <div className="mr-5 ml-3 pr-5 pl-3">
         <h3>Fizzbuzz in JavaScript</h3>
       </div>
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         Fizzbuzz is a common test given to those applying for a junior dev
         position. The goal of the exercise is to cycle through numbers 1 - 100.
         When a number is divisible by 3, the console should log the word “fizz”;
@@ -27,13 +27,13 @@ function BlogPage(props) {
         function fizzbuzz.
       </p>
       <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageOne} alt="Code" />
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         Next: I'll go ahead and write the code that will call the function and
         give it a number. Because we are passing and parameter into the
         function, we should place a parameter in the parenthesis written above.
       </p>
       <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageTwo} alt="Code" />
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         In the example above, I want the fizz buzz function's parameter to be
         500; therefore, num will have a value of 500. You can update num by
         changing the number in the second set of parentheses. I'll have to loop
@@ -41,7 +41,7 @@ function BlogPage(props) {
         whatever number desired; in my case, 500.
       </p>
       <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageThree} alt="Code" />
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         Note: "i" will stand in for the value of 1, and it is compared to the
         number that the user has passed into the function. As long as the middle
         section proves true, the loop will run. In my case, 1 is less than 500;
@@ -60,7 +60,7 @@ function BlogPage(props) {
         conditional clause.
       </p>
       <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageFour} alt="Code" />
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         Here, I've initiated the conditional statement with an "if clause".
         Inside the parenthesis we see “i % 5 === 0 && i % 3 === 0”. The first
         half ("i % 5 === 0") asks: if the number that "i" represents is divided
@@ -78,7 +78,7 @@ function BlogPage(props) {
         all other potential conditions fail to prove true.
       </p>
       <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageFive} alt="Code" />
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         The new "else if" statements ask the same thing as the "if" statement;
         but this time, only one condition has to be met. If "i" = 6, the "if"
         clause will prove false (6 has a remainder of 1 when divided by 5). The
@@ -92,7 +92,7 @@ function BlogPage(props) {
         false.
       </p>
       <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageSix} alt="Code" />
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         For fun, let’s say the number "i" is now 14. There will be a remainder
         when 14 is divided by both 5 or 3. In this case, the only thing printed
         to the console is 14. If all conditional statements have proved false by
@@ -101,7 +101,7 @@ function BlogPage(props) {
         number that "i" equals to the console, in addition to other numbers that
         create a remainder when divided by either 3 or 5.
       </p>
-      <p className="mr-5 ml-3 pr-5 pl-3">
+      <p className="mr-3 ml-3 pr-3 pl-3">
         Next week we’ll take a look at how to enact this simple program in
         Python highlighting both the similarities and differences between the
         two languages.{" "}
