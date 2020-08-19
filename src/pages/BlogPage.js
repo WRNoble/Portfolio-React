@@ -26,13 +26,23 @@ function BlogPage(props) {
         more interactive, I'll place all of it within a function. Let’s call the
         function fizzbuzz.
       </p>
-      <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageOne} alt="Code" />
+      <img
+        className="mr-3 ml-3 mb-3 pr-3 pl-3"
+        src={imageOne}
+        alt="Code"
+        width="390"
+      />
       <p className="mr-3 ml-3 pr-3 pl-3">
         Next: I'll go ahead and write the code that will call the function and
         give it a number. Because we are passing and parameter into the
         function, we should place a parameter in the parenthesis written above.
       </p>
-      <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageTwo} alt="Code" />
+      <img
+        className="mr-3 ml-3 mb-3 pr-3 pl-3"
+        src={imageTwo}
+        alt="Code"
+        width="390"
+      />
       <p className="mr-3 ml-3 pr-3 pl-3">
         In the example above, I want the fizz buzz function's parameter to be
         500; therefore, num will have a value of 500. You can update num by
@@ -40,7 +50,12 @@ function BlogPage(props) {
         through a series of numbers. The for loop will start with 1 and go to
         whatever number desired; in my case, 500.
       </p>
-      <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageThree} alt="Code" />
+      <img
+        className="mr-3 ml-3 mb-3 pr-3 pl-3"
+        src={imageThree}
+        alt="Code"
+        width="390"
+      />
       <p className="mr-3 ml-3 pr-3 pl-3">
         Note: "i" will stand in for the value of 1, and it is compared to the
         number that the user has passed into the function. As long as the middle
@@ -59,7 +74,12 @@ function BlogPage(props) {
         the next number. Therefore, "fizzbuzz" must come first in our
         conditional clause.
       </p>
-      <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageFour} alt="Code" />
+      <img
+        className="mr-3 ml-3 mb-3 pr-3 pl-3"
+        src={imageFour}
+        alt="Code"
+        width="390"
+      />
       <p className="mr-3 ml-3 pr-3 pl-3">
         Here, I've initiated the conditional statement with an "if clause".
         Inside the parenthesis we see “i % 5 === 0 && i % 3 === 0”. The first
@@ -77,7 +97,12 @@ function BlogPage(props) {
         have to use the key words "else if". "else" is used as a catch all, if
         all other potential conditions fail to prove true.
       </p>
-      <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageFive} alt="Code" />
+      <img
+        className="mr-3 ml-3 mb-3 pr-3 pl-3"
+        src={imageFive}
+        alt="Code"
+        width="390"
+      />
       <p className="mr-3 ml-3 pr-3 pl-3">
         The new "else if" statements ask the same thing as the "if" statement;
         but this time, only one condition has to be met. If "i" = 6, the "if"
@@ -91,7 +116,12 @@ function BlogPage(props) {
         to render true because it will run only when the above three have proved
         false.
       </p>
-      <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageSix} alt="Code" />
+      <img
+        className="mr-3 ml-3 mb-3 pr-3 pl-3"
+        src={imageSix}
+        alt="Code"
+        width="390"
+      />
       <p className="mr-3 ml-3 pr-3 pl-3">
         For fun, let’s say the number "i" is now 14. There will be a remainder
         when 14 is divided by both 5 or 3. In this case, the only thing printed
