@@ -93,7 +93,7 @@ function BlogPage(props) {
       </p>
       <img className="mr-5 ml-3 mb-3 pr-5 pl-3" src={imageSix} alt="Code" />
       <p className="mr-5 ml-3 pr-5 pl-3">
-        For fun, let’s say the number "i" is now 14. There'll be a remainder
+        For fun, let’s say the number "i" is now 14. There will be a remainder
         when 14 is divided by both 5 or 3. In this case, the only thing printed
         to the console is 14. If all conditional statements have proved false by
         the time the program gets to the "else" clause, the program assumes the
