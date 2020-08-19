@@ -40,7 +40,7 @@ class App extends Component {
         title: "My Contact",
       },
       blog: {
-        title: "My Blog",
+        title: "Code Challenge",
       },
     };
   }
