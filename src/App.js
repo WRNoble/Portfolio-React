@@ -69,8 +69,9 @@ class App extends Component {
                 </Link>
                 <a
                   className="nav-link"
-                  href="https://drive.google.com/file/d/1nk5p75JiqHTy-B4qzRGBPzORv8uAxcQI/view?usp=sharing"
-                  target="blank"
+                  href="https://drive.google.com/file/d/1mvDR7swfxO_zL1HawKVZ1O-uYd4YGYIH/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </a>
