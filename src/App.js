@@ -8,8 +8,8 @@ import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
-
 import "./App.css";
+import JsFizzbuzz from "./pages/JsFizzbuzz";
 
 class App extends Component {
   constructor(props) {
@@ -61,9 +61,6 @@ class App extends Component {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                {/* <Link className="nav-link" to="/">
-                  Home
-                </Link> */}
                 <Link className="nav-link" to="/about">
                   My Story
                 </Link>
@@ -123,6 +120,7 @@ class App extends Component {
             exact
             render={() => <BlogPage title={this.state.blog.title} />}
           />
+          <Route path="/JsFizzbuzz" exact render={() => <JsFizzbuzz />} />
         </Container>
       </Router>
     );
