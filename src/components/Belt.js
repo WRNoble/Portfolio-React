@@ -5,6 +5,9 @@ import PicRome from "../images/PicRome.png";
 import GIFSearch from "../images/GIFSearch.png";
 import RomeCon from "../images/RomeCon.png";
 import Scoreboard from "../images/Scoreboard.png";
+import Budget from "../images/Budget.png";
+import Four from "../images/Four.png";
+import Django from "../images/PicDjango.png";
 
 class Belt extends Component {
   constructor(props) {
@@ -13,6 +16,24 @@ class Belt extends Component {
       items: [
         {
           id: 0,
+          title: "Budget Tracker",
+          text: "MondoDB, Express, React, Node (MERN)",
+          imgSrc: Budget,
+          link: "https://sheltered-mountain-32702.herokuapp.com/",
+          linkTwo: "https://github.com/WRNoble/budget-tracker",
+          selected: false,
+        },
+        {
+          id: 1,
+          title: "Four In A Row",
+          text: "HTML, CSS, and JavaScript",
+          imgSrc: Four,
+          link: "https://wrnoble.github.io/four-in-a-row/",
+          linkTwo: "https://github.com/WRNoble/four-in-a-row",
+          selected: false,
+        },
+        {
+          id: 2,
           title: "Classical Rome Seminar",
           text: "HTML and CSS Bootstrap",
           imgSrc: RomeCon,
@@ -21,7 +42,7 @@ class Belt extends Component {
           selected: false,
         },
         {
-          id: 1,
+          id: 3,
           title: "Ancient Rome Trivia Game",
           text: "HTML, CSS, and JavaScript",
           imgSrc: PicRome,
@@ -30,7 +51,7 @@ class Belt extends Component {
           selected: false,
         },
         {
-          id: 2,
+          id: 4,
           title: "GIF Search App",
           text: "React",
           imgSrc: GIFSearch,
@@ -39,7 +60,7 @@ class Belt extends Component {
           selected: false,
         },
         {
-          id: 3,
+          id: 5,
           title: "Scoreboard",
           text: "React",
           imgSrc: Scoreboard,
