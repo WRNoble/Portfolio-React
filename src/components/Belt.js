@@ -43,6 +43,15 @@ class Belt extends Component {
         },
         {
           id: 3,
+          title: "Django Learning Site",
+          text: "Python/Django",
+          imgSrc: Django,
+          link: "https://djangolearningromesite.herokuapp.com/",
+          linkTwo: "https://github.com/WRNoble/django-learning-site",
+          selected: false,
+        },
+        {
+          id: 4,
           title: "Ancient Rome Trivia Game",
           text: "HTML, CSS, and JavaScript",
           imgSrc: PicRome,
@@ -51,7 +60,7 @@ class Belt extends Component {
           selected: false,
         },
         {
-          id: 4,
+          id: 5,
           title: "GIF Search App",
           text: "React",
           imgSrc: GIFSearch,
@@ -60,7 +69,7 @@ class Belt extends Component {
           selected: false,
         },
         {
-          id: 5,
+          id: 6,
           title: "Scoreboard",
           text: "React",
           imgSrc: Scoreboard,
