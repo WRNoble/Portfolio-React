@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";
 import BlogCard from "../components/BlogCard";
 import jsPicFizzbuzz from "../blog image/imageSix.png";
+import reverseString from "../blog image/reverseString.png";
 
 class BlogBelt extends Component {
   constructor(props) {
@@ -13,7 +14,15 @@ class BlogBelt extends Component {
           title: "Fizzbuzz",
           text: "The classic Fizzbuzz challenge",
           imgSrc: jsPicFizzbuzz,
-          path: "/JsFizzbuzz",
+          link: "/JsFizzbuzz",
+          selected: false,
+        },
+        {
+          id: 1,
+          title: "Reverse A String",
+          text: "Reverse A String In JavaScript",
+          imgSrc: reverseString,
+          link: "/ReverseString",
           selected: false,
         },
       ],

@@ -10,6 +10,7 @@ import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
 import "./App.css";
 import JsFizzbuzz from "./pages/JsFizzbuzz";
+import ReverseString from "./pages/ReverseString";
 
 class App extends Component {
   constructor(props) {
@@ -122,6 +123,7 @@ class App extends Component {
             render={() => <BlogPage title={this.state.blog.title} />}
           />
           <Route path="/JsFizzbuzz" exact render={() => <JsFizzbuzz />} />
+          <Route path="/ReverseString" exact render={() => <ReverseString />} />
         </Container>
       </Router>
     );

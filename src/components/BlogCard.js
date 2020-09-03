@@ -13,7 +13,11 @@ function BlogCard(props) {
         alt={props.blogLink.imgSrc}
       />
       {props.blogLink.selected && (
-        <BlogPostInfo title={props.blogLink.title} text={props.blogLink.text} />
+        <BlogPostInfo
+          title={props.blogLink.title}
+          text={props.blogLink.text}
+          link={props.blogLink.link}
+        />
       )}
     </div>
   );
