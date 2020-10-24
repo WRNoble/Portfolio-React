@@ -11,6 +11,7 @@ import BlogPage from "./pages/BlogPage";
 import "./App.css";
 import JsFizzbuzz from "./pages/JsFizzbuzz";
 import ReverseString from "./pages/ReverseString";
+import Pangram from "./pages/Pangram";
 
 class App extends Component {
   constructor(props) {
@@ -124,6 +125,7 @@ class App extends Component {
           />
           <Route path="/JsFizzbuzz" exact render={() => <JsFizzbuzz />} />
           <Route path="/ReverseString" exact render={() => <ReverseString />} />
+          <Route path="/Pangram" exact render={() => <Pangram />} />
         </Container>
       </Router>
     );
